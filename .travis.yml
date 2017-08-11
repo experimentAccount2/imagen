@@ -29,6 +29,6 @@ before-script:
   - "echo 'backend : Agg' > $HOME/.matplotlib/matplotlibrc"
 
 script:
-  - nosetests --with-doctest --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_imagen_af9e6e822e_1
-  - python -m properform Push 47.88.50.110:15554 asdf_imagen_af9e6e822e_1 ./profile_imagen_af9e6e822e_1
- #2017-08-11 14:59:14 modified at 0 #2017-08-11 14:59:20 modified at 1
+  - nosetests --with-doctest --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_imagen_af9e6e822e_2
+  - python -m properform Push 47.88.50.110:15554 asdf_imagen_af9e6e822e_2 ./profile_imagen_af9e6e822e_2
+ #2017-08-11 14:59:14 modified at 0 #2017-08-11 14:59:20 modified at 1 #2017-08-11 14:59:26 modified at 2
